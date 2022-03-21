@@ -1,0 +1,134 @@
+.container{
+    padding-top: 3%;
+    background-color: #ecf4fe;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.iconcard-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    justify-content: space-evenly;
+   
+}
+
+.icons_container--one{
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+.icons_container--two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+.icons_container--three{
+    right: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.icon--one{
+   left: 20%;
+   position: absolute;
+}
+
+.icon--card__title{
+   
+}
+
+.far{
+    font-size: 50px;
+}
+
+.fas{
+    font-size: 50px;
+}
+
+.fa-handshake{
+    color:black;
+}
+
+.fa-check::before{
+    color: black;
+    font-size: 50px;
+
+}
+
+.icon-title{
+    padding: 29px;
+    margin-bottom: 5%;    
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.icon-detail{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 300px;
+}
+
+.border{
+    border-top: 1px solid rgb(212, 212, 212); 
+    width: 100%;
+}
+
+.fa-search:before{
+    font-size: 50px;
+    color: black
+}
+
+.material-icons{
+    font-size: 60px;
+}
+
+@media  screen and (max-width: 1250px) {
+    .iconcard-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .icons_container--one{
+        left: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+        padding-top: 10%;
+    
+    }
+    
+    .icons_container--two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+        padding-top: 10%;
+    
+    }
+    
+    .icons_container--three{
+        right: 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+        padding-top: 10%;
+    }
+}
